@@ -1,0 +1,13 @@
+{
+  "dependencies": {
+    "mssql1": {
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.Sql/servers/couriermanagement/databases/cms",
+      "type": "mssql.azure",
+      "connectionId": "ConnectionStrings:DbConnection",
+      "secretStore": "LocalSecretsFile"
+    },
+    "secrets1": {
+      "type": "secrets.user"
+    }
+  }
+}
